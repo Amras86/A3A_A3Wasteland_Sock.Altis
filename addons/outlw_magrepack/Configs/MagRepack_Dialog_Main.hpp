@@ -377,6 +377,10 @@ class MagRepack_Dialog_Main
 			w = 13 * GUI_GRID_W;
 			h = 13.6 * GUI_GRID_H;
 			sizeEx = 0.7 * GUI_GRID_H;
+			
+			colorPicture[] = {1,1,1,1};
+			colorPictureSelected[] = {1,1,1,1};
+			colorPictureDisabled[] = {1,1,1,1}; 
 		};
 		class MR_MagListBoxArea: outlw_MR_IGUIBack
 		{
